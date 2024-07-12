@@ -1,5 +1,6 @@
 import { Home, Settings, HelpCircle } from "lucide-react";
 import Index from "./pages/Index.jsx";
+import SettingsPage from "./pages/SettingsPage.jsx";
 
 export const navItems = [
   {
@@ -12,7 +13,7 @@ export const navItems = [
     title: "Settings",
     to: "/settings",
     icon: <Settings className="h-4 w-4" />,
-    page: <div>Settings Page</div>,
+    page: <SettingsPage />,
   },
   {
     title: "Help",
