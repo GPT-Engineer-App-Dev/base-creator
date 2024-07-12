@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import { MobileSidebar } from "./_components/MobileSidebar";
 import { NavbarAndSidebar } from "./_components/NavbarAndSidebar";
 import { UserMenu } from "../navbar/_components/UserMenu";
+import Footer from "./_components/Footer";
 
 const Layout = () => {
   return (
@@ -17,6 +18,7 @@ const Layout = () => {
         <main className="flex-grow p-4 overflow-auto">
           <Outlet />
         </main>
+        <Footer />
       </div>
     </div>
   );
